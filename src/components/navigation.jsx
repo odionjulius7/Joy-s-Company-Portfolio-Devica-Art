@@ -18,6 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           {/* <a className="navbar-brand page-scroll" href="#page-top"> */}
+
           <img
             style={{
               width: "100px",
@@ -27,6 +28,7 @@ export const Navigation = (props) => {
             src="/img/inline_logo2.png"
             alt="Devica Logo"
           />
+
           {/* </a>{" "} */}
         </div>
 

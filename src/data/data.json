@@ -1,21 +1,19 @@
 {
   "Header": {
-    "title": "Devica Art Production",
-    "paragraph": "Welcome to Devica Art Production, the home of Publishing, Printing, and Media services. We specialize in delivering high-quality content and media solutions tailored to your needs. Our team of experts is dedicated to providing exceptional service and innovative solutions that help you achieve your goals."
+    "title": "Welcome to Devica Art Production",
+    "paragraph": "Where Stories, Brands, and Ideas Come to Life."
   },
   "About": {
-    "paragraph": " Rendering the Invaluable... Devica Art Production is a brand that specializes in Book Publishing, Printing and showcasing Art and Talent through the Media.",
+    "paragraph": "At Devica Art Production, we’re more than just a creative agency; we’re your one-stop shop for high-quality printing, publishing, content creation, and branded experiences. Whether you are an author, entrepreneur, young creative, or growing business, we will help you bring your big ideas to life with speed, precision, and purpose.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Cost-effective solutions for all budgets.",
+      "One-stop shop for all your needs, including publishing and plaques.",
+      "Experienced and creative industry experts"
+      
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Premium quality with sharp detail, vibrant colours, and professional finish.",
+      "We prioritise meeting your deadlines."
     ]
   },
   "Gallery": [
@@ -68,33 +66,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Publishing & Editing",
+      "text": "From manuscript to marketplace, we provide full-service publishing, editing, proofreading, and content layout to help you tell your story to the world."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Content Writing & Business Copy",
+      "text": "Professional content creation, business writing, and persuasive copywriting tailored for brands, marketing campaigns, and websites."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Printing & Branding",
+      "text": "We provide fast turnaround (delivery time) general and commercial printing services of superior quality for everything from banners and booklets to flyers and business cards."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Customization & Souvenirs",
+      "text": "Branded souvenirs, apparel, mugs, and more, perfect for promotions, gifts, and corporate events. Fully customizable for any occasion."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Awards & Signage",
+      "text": "Award plaques with unique designs and long-lasting signage options that enhance the professional appearance of your events and areas."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Business Consultancy",
+      "text": "For authors, startups, and organisations, we offer creative and strategic consulting that will help you lead your publication or brand to success with impact and clarity."
     }
   ],
   "Testimonials": [
