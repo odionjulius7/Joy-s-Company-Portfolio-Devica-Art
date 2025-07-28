@@ -1,5 +1,6 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import axios from "axios";
+import { toast } from "react-toastify";
 import React from "react";
 
 const initialState = {
@@ -7,34 +8,48 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [isLoading, setIsLoading] = useState(false); // Add loading state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+
+    setIsLoading(true); // Start loading
+
+    // Send form data to Formspree
+    axios
+      .post("https://formspree.io/f/xnnzvzrv", {
+        name: name || "",
+        email: email || "",
+        message: message || "",
+      })
+      .then((response) => {
+        console.log("Formspree response:", response.data);
+        clearState(); // Clear state on success
+        toast.success("Message sent successfully!"); // Show success toast
+      })
+      .catch((error) => {
+        console.error(
+          "Formspree error:",
+          error.response?.data || error.message
+        );
+        toast.error("Failed to send message. Please try again."); // Show error toast
+      })
+      .finally(() => {
+        setIsLoading(false); // Stop loading regardless of success or failure
+      });
   };
+
   return (
     <div>
       <div id="contact">
@@ -59,6 +74,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name} // Controlled component
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -73,6 +89,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email} // Controlled component
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -87,13 +104,18 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message} // Controlled component
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  disabled={isLoading}
+                >
+                  {isLoading ? "Sending..." : "Send Message"}
                 </button>
               </form>
             </div>
