@@ -175,10 +175,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+            &copy; 2025 Devica Art Production inc. All Rights Reserved.
+            {/* <a href="#" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
