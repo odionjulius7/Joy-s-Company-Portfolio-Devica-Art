@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #004040 0%, #f3d9a6 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f3d9a6 0%, #00404063 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,7 +166,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
+  background-color: #004040;
   background-image: linear-gradient(to right, #f3d9a6 0%, #004040 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -249,6 +249,7 @@ header .intro-text {
 #features {
   background: #f6f6f6;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 #features i.fa {
   font-size: 38px;
@@ -278,7 +279,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f3d9a6 0%, #6373ff7b 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -312,7 +313,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #004040 100%);
+  background: linear-gradient(to right, #004040 0%, #3727064b 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -370,11 +371,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: linear-gradient(to right, #004040 0%, rgba(92, 169, 251, 0.461));
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -582,7 +579,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #004040;
   background: #fff;
 }
 /* Footer Section*/
@@ -595,10 +592,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #004040;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #004040;
 }
 
 @media (max-width: 768px) {

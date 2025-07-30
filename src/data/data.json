@@ -17,100 +17,71 @@
     ]
   },
   "Gallery": [
+   
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/prev1.jpg",
+      "smallImage": "img/prev1.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/prev2.jpg",
+      "smallImage": "img/prev2.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/prev3.jpg",
+      "smallImage": "img/prev3.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/prev4.jpg",
+      "smallImage": "img/prev4.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/prev5.jpg",
+      "smallImage": "img/prev5.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/prev6.jpg",
+      "smallImage": "img/prev6.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-book",
       "name": "Publishing & Editing",
       "text": "From manuscript to marketplace, we provide full-service publishing, editing, proofreading, and content layout to help you tell your story to the world."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-pencil",
       "name": "Content Writing & Business Copy",
       "text": "Professional content creation, business writing, and persuasive copywriting tailored for brands, marketing campaigns, and websites."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-print",
       "name": "Printing & Branding",
       "text": "We provide fast turnaround (delivery time) general and commercial printing services of superior quality for everything from banners and booklets to flyers and business cards."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-gift",
       "name": "Customization & Souvenirs",
       "text": "Branded souvenirs, apparel, mugs, and more, perfect for promotions, gifts, and corporate events. Fully customizable for any occasion."
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-trophy",
       "name": "Awards & Signage",
       "text": "Award plaques with unique designs and long-lasting signage options that enhance the professional appearance of your events and areas."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "fa fa-lightbulb",
       "name": "Business Consultancy",
       "text": "For authors, startups, and organisations, we offer creative and strategic consulting that will help you lead your publication or brand to success with impact and clarity."
     }
   ],
   "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
     {
       "img": "img/testimonials/04.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
@@ -151,32 +122,32 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+234 901 515 3690",
-    "email": "joyolatunji.dap@gmail.com",
+    "phone": "+234 701 273 0730",
+    "email": "devica01@gmail.com",
     "facebook": "https://www.facebook.com/devicaart",
-    "linkedin": "https://www.linkedin.com/devicaart",
+    "linkedin": "https://www.linkedin.com/joyolatunji",
     "youtube": "https://www.youtube.com/user/devicaart"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Publishing",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
+  "icon": "fa fa-book",
+  "title": "Publishing",
+  "text": "At Devica, publishing is more than just putting ink on paper; it is about turning unheard ideas into powerful narratives. We guide authors from manuscript to marketplace, ensuring their voices reach readers who need them most. Our publishing wing amplifies stories that would otherwise remain in the shadows."
+},
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-print",
       "title": "Printing",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Our printing services give vision a tangible form. Whether it's books, brand materials, or promotional content, we bring each message to life with precision and care. Through high-quality, accessible print solutions, we help voices leave a lasting impression wherever they're seen."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-video-camera",
       "title": "Media",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Through storytelling in video, audio, and digital formats, we help clients show up and speak out. We create impactful visual and narrative content, bridging the gap between marginalised voices and the platforms where they deserve to be heard and acknowledged."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-users",
       "title": "Consultation",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Our consultation service is where clarity begins. We listen, strategize, and co-create with clients to help shape the message they’re trying to communicate. It’s a collaborative space where quiet ideas become bold blueprints for creative impact."
     }
   ]
 }
