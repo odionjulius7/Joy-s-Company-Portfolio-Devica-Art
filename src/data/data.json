@@ -121,11 +121,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "devicaart.com",
     "phone": "+234 701 273 0730",
     "email": "devica01@gmail.com",
     "facebook": "https://www.facebook.com/devicaart",
-    "linkedin": "https://www.linkedin.com/joyolatunji",
+    "linkedin": "https://www.linkedin.com/devicaart",
     "youtube": "https://www.youtube.com/user/devicaart"
   },
   "Features": [
@@ -143,11 +143,7 @@
       "icon": "fa fa-video-camera",
       "title": "Media",
       "text": "Through storytelling in video, audio, and digital formats, we help clients show up and speak out. We create impactful visual and narrative content, bridging the gap between marginalised voices and the platforms where they deserve to be heard and acknowledged."
-    },
-    {
-      "icon": "fa fa-users",
-      "title": "Consultation",
-      "text": "Our consultation service is where clarity begins. We listen, strategize, and co-create with clients to help shape the message they’re trying to communicate. It’s a collaborative space where quiet ideas become bold blueprints for creative impact."
     }
+   
   ]
 }

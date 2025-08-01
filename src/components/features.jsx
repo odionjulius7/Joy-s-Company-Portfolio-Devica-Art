@@ -15,7 +15,7 @@ export const Features = (props) => {
                     marginBottom: "30px",
                   }}
                   key={`${d.title}-${i}`}
-                  className="col-xs-12 col-md-3 "
+                  className="col-xs-12 col-md-4 "
                 >
                   {" "}
                   <i className={d.icon}></i>
