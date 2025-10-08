@@ -28,7 +28,7 @@ export const Contact = (props) => {
 
     // Send form data to Formspree
     axios
-      .post("https://formspree.io/f/xnnzvzrv", {
+      .post("https://formspree.io/f/xblzaadj", {
         name: name || "",
         email: email || "",
         message: message || "",
@@ -155,11 +155,12 @@ export const Contact = (props) => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={props.data ? props.data.facebook : "/"}
+                      href={props.data ? props.data.instagram : "/"}
                     >
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
+
                   <li>
                     <a
                       target="_blank"
@@ -176,6 +177,15 @@ export const Contact = (props) => {
                       href={props.data ? props.data.youtube : "/"}
                     >
                       <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={props.data ? props.data.whatsapp : "https://wa.me/"}
+                    >
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>

@@ -19,34 +19,35 @@
   "Gallery": [
    
     {
-      "title": "Project Title",
-      "largeImage": "img/prev1.jpg",
-      "smallImage": "img/prev1.jpg"
+      "title": "DeviPress: The Publishing Arm.",
+      "largeImage": "img/001.jpeg",
+      "smallImage": "img/001.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/prev2.jpg",
-      "smallImage": "img/prev2.jpg"
+      "title": "DeviPrint: The Printing Arm.",
+      "largeImage": "img/002.jpeg",
+      "smallImage": "img/002.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/prev3.jpg",
-      "smallImage": "img/prev3.jpg"
+      "title": "DeviCast: The Media Arm.",
+      "largeImage": "img/003.jpeg",
+      "smallImage": "img/003.jpeg"
+    },
+   
+    {
+      "title": "DeviNex: The General Management Team.",
+      "largeImage": "img/005.jpeg",
+      "smallImage": "img/005.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/prev4.jpg",
-      "smallImage": "img/prev4.jpg"
+      "title": "DeviNest: The Welcome and Onboarding Circle.",
+      "largeImage": "img/006.jpeg",
+      "smallImage": "img/006.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/prev5.jpg",
-      "smallImage": "img/prev5.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/prev6.jpg",
-      "smallImage": "img/prev6.jpg"
+      "title": "DeviTribe: The Community of Creatives (Devicaites).",
+      "largeImage": "https://chat.whatsapp.com/HlNSx4iY0U9EW6OS3IH9ms?mode=ems_copy_t",
+      "smallImage": "img/007.jpeg"
     }
   ],
   "Services": [
@@ -83,50 +84,51 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/precious.jpeg",
+      "text": "\"I wish to express my deepest gratitude to everyone who contributed to the successful completion of our group project, “The World Economy Problems.” My heartfelt appreciation goes especially to Devica Art Production and Adedapo Victor Ayobami, who handled the printing of our book with exceptional professionalism. His support went beyond printing he also assisted with the interior design, ensuring that every detail came out perfectly. His dedication and skill not only helped us achieve excellent grades but also earned our project high praise for its outstanding presentation and quality.\"",
+      "name": "Ogbonna Precious Chinyere"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/Isaac.jpeg",
+      "text": "\"Devica really did a good job in the entire publishing of our book. From the type setting,to the formatting, to the editing, the book design, even customer service, it was excellence all the way. The costing? So affordable. You cannot get a better deal anywhere else. I especially commend the quality of communication we had throughout the time we worked on the book. Devica is my best bet in publishing. I highly recommend them.\"",
+      "name": "ISAAC BUSAYO LAWAL"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/Muminut1.jpeg",
+      "text": "\"I just have to share how thrilled I am about the book, Unilag: The Geophysical Environment, that my group published with your help! It turned out amazing, and everyone who has seen it absolutely loved it! The quality of the materials used for the production is top-notch. I know I pushed you hard during the process, but trust me, it was all worth it! The lecturers were genuinely impressed when they saw the book and showered praise on the person who brought our vision to life. You won’t believe the best part—almost everyone in my group scored an A in the course! Honestly, the quality of the book played a huge role in our success. I can’t thank you enough for your support and collaboration with my group. This wouldn’t have come to fruition without your expertise, and I’m so grateful for everything you’ve done! Thank you!\"",
+      "name": "Salau, Muminut Eniola"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/ceo.jpeg",
+      "name": "Adedapo Victor A",
+      "job": "Founder / CEO"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/coo.jpeg",
+      "name": "Olatunji Joy O",
+      "job": "COO"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/cfo.jpeg",
+      "name": "Sofidiya Samuel A",
+      "job": "CFO"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/market.jpeg",
+      "name": "Issa Habeebullah O",
+      "job": "Marketing Lead"
     }
   ],
   "Contact": {
     "address": "devicaart.com",
-    "phone": "+234 701 273 0730",
-    "email": "devica01@gmail.com",
-    "facebook": "https://www.facebook.com/devicaart",
-    "linkedin": "https://www.linkedin.com/devicaart",
-    "youtube": "https://www.youtube.com/user/devicaart"
+    "phone": "+234 806 515 0767",
+    "email": "devicaartproduction@gmail.com",
+    "instagram": "https://www.instagram.com/devicaart?igsh=MTNjZDhkbjVnaGU0bQ==",
+    "linkedin": "https://www.linkedin.com/company/devicaart/",
+    "youtube": "https://youtube.com/@devicaart_production?si=QZRL83AUPs_hafZi",
+    "whatsapp": "https://wa.me/2348065150767"
   },
   "Features": [
     {

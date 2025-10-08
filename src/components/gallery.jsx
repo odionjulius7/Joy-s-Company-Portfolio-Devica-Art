@@ -8,8 +8,9 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            A visual archive of our creative universe, where each collaboration,
+            story, and imprint <br /> demonstrates the various ways Devica
+            brings ideas to life.
           </p>
         </div>
         <div className="row">

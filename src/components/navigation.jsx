@@ -1,6 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export const Navigation = (props) => {
+  useEffect(() => {
+    // Close navbar on link click (for mobile view)
+    const navLinks = document.querySelectorAll(".navbar-collapse a");
+    const navCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth < 768 && navCollapse.classList.contains("in")) {
+          // Bootstrap 3 collapse
+          navCollapse.classList.remove("in");
+        } else if (
+          window.innerWidth < 768 &&
+          navCollapse.classList.contains("show")
+        ) {
+          // Bootstrap 4/5 collapse
+          navCollapse.classList.remove("show");
+        }
+      });
+    });
+
+    return () => {
+      navLinks.forEach((link) => {
+        link.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -17,7 +44,6 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          {/* <a className="navbar-brand page-scroll" href="#page-top"> */}
 
           <img
             style={{
@@ -28,8 +54,6 @@ export const Navigation = (props) => {
             src="/img/inline_logo2.png"
             alt="Devica Logo"
           />
-
-          {/* </a>{" "} */}
         </div>
 
         <div

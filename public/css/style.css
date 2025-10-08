@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #004040 0%, #004040 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -337,7 +337,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #004040 0%, #f3d9a6 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -384,7 +384,7 @@ header .intro-text {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
@@ -419,8 +419,8 @@ header .intro-text {
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 81px;
+  height: 78px;
   border-radius: 50%;
 }
 .testimonial-content {
@@ -447,6 +447,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  height: 220px;
 }
 #team .thumbnail {
   background: transparent;
@@ -601,5 +602,19 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+@media (max-width: 460px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 1px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  #contact .social i.fa {
+    margin-top: 18px;
   }
 }
