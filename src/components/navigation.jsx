@@ -51,6 +51,7 @@ export const Navigation = (props) => {
               height: "90px",
               marginTop: "-20px",
             }}
+            // src="/img/green1.PNG"
             src="/img/inline_logo2.png"
             alt="Devica Logo"
           />

@@ -20,34 +20,34 @@
    
     {
       "title": "DeviPress: The Publishing Arm.",
-      "largeImage": "img/001.jpeg",
-      "smallImage": "img/001.jpeg"
+      "largeImage": "img/printing.jpg",
+      "smallImage": "img/printing.jpg"
     },
     {
       "title": "DeviPrint: The Printing Arm.",
-      "largeImage": "img/002.jpeg",
-      "smallImage": "img/002.jpeg"
+      "largeImage": "img/printing1.jpg",
+      "smallImage": "img/printing1.jpg"
     },
     {
       "title": "DeviCast: The Media Arm.",
-      "largeImage": "img/003.jpeg",
-      "smallImage": "img/003.jpeg"
+      "largeImage": "img/Invitation.jpg",
+      "smallImage": "img/Invitation.jpg"
     },
    
     {
       "title": "DeviNex: The General Management Team.",
-      "largeImage": "img/005.jpeg",
-      "smallImage": "img/005.jpeg"
+      "largeImage": "img/printing5.jpg",
+      "smallImage": "img/printing5.jpg"
     },
     {
       "title": "DeviNest: The Welcome and Onboarding Circle.",
-      "largeImage": "img/006.jpeg",
-      "smallImage": "img/006.jpeg"
+      "largeImage": "img/Brochure.jpg",
+      "smallImage": "img/Brochure.jpg"
     },
     {
       "title": "DeviTribe: The Community of Creatives (Devicaites).",
       "largeImage": "https://chat.whatsapp.com/HlNSx4iY0U9EW6OS3IH9ms?mode=ems_copy_t",
-      "smallImage": "img/007.jpeg"
+      "smallImage": "img/Envelope.jpg"
     }
   ],
   "Services": [
@@ -122,7 +122,7 @@
     }
   ],
   "Contact": {
-    "address": "devicaart.com",
+    "address": "devipress.blogspot.com",
     "phone": "+234 806 515 0767",
     "email": "devicaartproduction@gmail.com",
     "instagram": "https://www.instagram.com/devicaart?igsh=MTNjZDhkbjVnaGU0bQ==",

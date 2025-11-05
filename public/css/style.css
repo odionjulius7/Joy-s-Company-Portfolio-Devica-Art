@@ -361,6 +361,10 @@ header .intro-text {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
+.portfolio-item .img-responsive {
+  width: 400px;
+  height: 400px;
+}
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
