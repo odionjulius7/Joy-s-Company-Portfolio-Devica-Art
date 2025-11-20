@@ -126,8 +126,18 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-comments"></i> Blogs
-                </span>
-                <span> {props.data ? props.data.address : "loading"}</span>
+                </span>{" "}
+                <a
+                  style={{
+                    color: "white",
+                  }}
+                  href="https://devipress.blogspot.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  {props.data ? props.data.address : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">

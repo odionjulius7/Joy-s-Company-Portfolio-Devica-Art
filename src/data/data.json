@@ -35,7 +35,7 @@
     },
    
     {
-      "title": "Our Brochure: Read more about us",
+      "title": "Our Brochure: Click on the image to read more about us",
       "largeImage": "https://drive.google.com/file/d/1_rXAkE8gyESv2UA-yJIdP6a2QqI1OKHU/view?usp=drivesdk",
       "smallImage": "img/DEVICABROCHURE.jpg"
     },
@@ -101,12 +101,12 @@
   ],
   "Team": [
     {
-      "img": "img/team/ceo.jpeg",
+      "img": "img/victor11.jpeg",
       "name": "Adedapo Victor A",
       "job": "Founder / CEO"
     },
     {
-      "img": "img/team/coo.jpeg",
+      "img": "img/joy11.jpeg",
       "name": "Olatunji Joy O",
       "job": "COO"
     },
