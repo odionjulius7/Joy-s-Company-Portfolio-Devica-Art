@@ -48,11 +48,12 @@ export const Navigation = (props) => {
           <img
             style={{
               width: "100px",
-              height: "90px",
-              marginTop: "-20px",
+              height: "auto",
+              marginTop: "10px",
+              marginBottom: "20px",
             }}
-            // src="/img/green1.PNG"
-            src="/img/inline_logo2.png"
+            src="/img/logo1.jpeg"
+            // src="/img/inline_logo2.png"
             alt="Devica Logo"
           />
         </div>

@@ -19,35 +19,35 @@
   "Gallery": [
    
     {
-      "title": "DeviPress: The Publishing Arm.",
+      "title": "Publishing, design, and printing - Books",
       "largeImage": "img/printing.jpg",
       "smallImage": "img/printing.jpg"
     },
     {
-      "title": "DeviPrint: The Printing Arm.",
-      "largeImage": "img/printing1.jpg",
-      "smallImage": "img/printing1.jpg"
+      "title": "Design and printing - Envelopes",
+      "largeImage": "img/Envelope.jpg",
+      "smallImage": "img/Envelope.jpg"
     },
     {
-      "title": "DeviCast: The Media Arm.",
+      "title": "Design and printing - Invitation cards",
       "largeImage": "img/Invitation.jpg",
       "smallImage": "img/Invitation.jpg"
     },
    
     {
-      "title": "DeviNex: The General Management Team.",
-      "largeImage": "img/printing5.jpg",
-      "smallImage": "img/printing5.jpg"
+      "title": "Our Brochure: Read more about us",
+      "largeImage": "https://drive.google.com/file/d/1_rXAkE8gyESv2UA-yJIdP6a2QqI1OKHU/view?usp=drivesdk",
+      "smallImage": "img/DEVICABROCHURE.jpg"
     },
     {
-      "title": "DeviNest: The Welcome and Onboarding Circle.",
+      "title": "Design and printing - Brochures",
       "largeImage": "img/Brochure.jpg",
       "smallImage": "img/Brochure.jpg"
     },
     {
-      "title": "DeviTribe: The Community of Creatives (Devicaites).",
+      "title": "To join our community, click on the image.",
       "largeImage": "https://chat.whatsapp.com/HlNSx4iY0U9EW6OS3IH9ms?mode=ems_copy_t",
-      "smallImage": "img/Envelope.jpg"
+      "smallImage": "img/groupwhat.jpeg"
     }
   ],
   "Services": [

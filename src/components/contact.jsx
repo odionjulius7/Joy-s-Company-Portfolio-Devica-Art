@@ -127,7 +127,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-comments"></i> Blogs
                 </span>
-                {props.data ? props.data.address : "loading"}
+                <span> {props.data ? props.data.address : "loading"}</span>
               </p>
             </div>
             <div className="contact-item">
